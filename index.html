@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#35b38d">
+	<title>Time Twist</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header><h1>Time Twist</h1></header>
+	
+	<div id="instructions-box">
+		<div id="instructions">
+			<p>Hold to slow down time</p>
+			<p>Release to speed up time</p>
+		</div>
+		<button class="btn start-game">Play Game</button>
+	</div>
+	
+	<div id="game-wrapper" class="hide">
+		<canvas></canvas>
+	</div>
+	
+	<div id="result-box" class="hide">
+		<div id="score"></div>
+		<button class="btn start-game">Play again</button>
+		<button class="btn home">Home</button>
+	</div>
+	
+	
+	
+	<script src="JS/utils/gameCanvas.js"></script>
+	<script src="JS/utils/gameSound.js"></script>
+	<script src="JS/utils/player.js"></script>
+	<script src="JS/utils/enemy.js"></script>
+	<script src="JS/utils/score.js"></script>
+	<script src="JS/utils/sideTile.js"></script>
+	
+	<script src="JS/init/mainGame.js"></script>
+	<script src="JS/init/gameInit.js"></script>
+	<script src="JS/init/loader.js"></script>
+</body>
+</html>
