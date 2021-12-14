@@ -10,3 +10,6 @@ Twist the time to control obstacles on your way.
 
 ### Inspiration
 The game has been inspired from the Time Warp Game in Paytm.
+
+## Game Play
+The game can be directly played on the link: https://aayush301.github.io/Time-twist-game/
